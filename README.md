@@ -36,4 +36,4 @@ In Claude, anyone can recreate the tool:
 Once saved, describe or attach an intervention and ask how people might interpret it. The skill or plugin should trigger automatically; you don't need to attach the Markdown file again.
 
 ## Cautionary note
-Note that these models are frequently changing. The software-specific instructions above may become obsolete. In this case, we suggest providing this readme file to your AI and asking it for updated instructions on how to create the respective skill.
+Models are frequently changing. The software-specific instructions above may become obsolete. In this case, we suggest providing this readme file to your AI and asking it for updated instructions on how to create the respective skill.

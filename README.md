@@ -4,7 +4,7 @@ This folder contains the prompt to generate the intervention audit tool discusse
 
 Reiff, J. S., and Bogard, J. E. (2026). “Behavioral Intervention Construal: A Framework for Understanding Inferences from Behavioral Interventions.” Organization Science, Articles in Advance. https://doi.org/10.1287/orsc.2025.21412.
 
-The paper described this tool as available in ChatGPT. The "Custom GPT" function that was used to create the original tool will be retired on December 11, 2026. This prompt serves as a replacement. It serves as a general prompt that can be used with any model.
+The academic paper described this tool as available in ChatGPT. The "Custom GPT" function that was used to create the original tool will be retired on December 11, 2026. This prompt serves as a replacement. It serves as a general prompt that can be used with any model.
 
 
 In ChatGPT, anyone can recreate the tool by:

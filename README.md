@@ -6,23 +6,18 @@ Reiff, J. S., and Bogard, J. E. (2026). “Behavioral Intervention Construal: A 
 
 The paper described this tool as available in ChatGPT. The "Custom GPT" function that was used to create the original tool will be retired on December 11, 2026. This prompt serves as a replacement. It serves as a general prompt that can be used with any model.
 
+
 In ChatGPT, anyone can recreate the tool by:
-
-Openning the Plugins directory and installing Plugin Creator.
-
-Start a new chat, select @plugin-creator, and attach the Markdown file.
-
-Send this message: "Create a private ChatGPT plugin named Behavioral Intervention Inference Audit. Use the attached Markdown file as the instructions for a reusable skill."
+1) Openning the Plugins directory and installing Plugin Creator.
+2) Start a new chat, select @plugin-creator, and attach the Markdown file.
+3) Send this message: "Create a private ChatGPT plugin named Behavioral Intervention Inference Audit. Use the attached Markdown file as the instructions for a reusable skill."
 
 In Claude, anyone can recreate the tool by:
-
-Starting a new chat and attaching the Markdown file. 
-
-Sending this message: "/skill-creator can you turn this into a skill?" 
-
-Claude will create named behavioral-intervention-audit, and Claude will validate it and send back a .skill file. 
-
-Click Save skill on the file card to install it.
+1) Starting a new chat and attaching the Markdown file.
+2) Sending this message: "/skill-creator can you turn this into a skill?"
+3) Claude will create named behavioral-intervention-audit, and Claude will validate it and send back a .skill file.
+4) Click Save skill on the file card to install it.
+   
 
 Once saved, describe or attach an intervention and ask how people might interpret it. The skill or plugin should trigger automatically; you don't need to attach the Markdown file again.
 

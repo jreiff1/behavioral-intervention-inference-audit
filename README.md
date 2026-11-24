@@ -8,6 +8,17 @@ Reiff, J. S., and Bogard, J. E. (2026). “Behavioral Intervention Construal: A 
 The academic paper described this tool as available in ChatGPT. The "Custom GPT" function that was used to create the original tool will be retired on December 11, 2026. This prompt serves as a replacement. It serves as a general prompt that can be used with any model.
 
 
+**Quick start**
+Paste this into a new chat in ChatGPT or Claude with web access enabled. Attach an image of the intervention or describe it in the chat.
+
+```text
+Open and read the full Behavioral Intervention Inference Audit Prompt at:
+https://raw.githubusercontent.com/jreiff1/behavioral-intervention-inference-audit/main/Behavioral_Intervention_Inference_Audit_Prompt.md
+
+Follow the instructions in that file to audit the intervention I provide. Return the three-column audit table specified in the file. If I haven’t provided an intervention yet, ask me to describe it or attach an image. If you can’t open the link, ask me to paste the Markdown text before starting the audit.
+```
+
+**Creating a reusable tool**
 In ChatGPT, anyone can recreate the tool:
 1) Open the Plugins directory and instal Plugin Creator.
 2) Start a new chat, select @plugin-creator and attach the Markdown file.

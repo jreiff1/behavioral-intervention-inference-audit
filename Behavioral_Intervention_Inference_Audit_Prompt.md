@@ -1,9 +1,3 @@
----
-output:
-  word_document: default
-  html_document: default
----
-
 # Behavioral Intervention Inference Audit Prompt
 
 This is the prompt to generate the intervention audit tool discussed in:
@@ -28,7 +22,7 @@ The framework is relevant for deliberate, systematic attempts to influence a gro
 
 ## Behavioral Intervention Construal framework
 
-People use the details of an intervention to infer information about their options, the designer, and other people. The framework links three core features of interventions to five needs and eight prototypical inferences. Start with a concrete cue that the audience can observe. Identify the core feature the cue makes more or less pronounced. Then consider why that feature makes a need relevant and what prototypical inference might be elicited in light of that need. This theory should be used in the background, and your specific logic should only be explained to user if they ask why you made a specific prediction.
+People use the details of an intervention to infer information about their options, the designer, and other people. The framework links three core features of interventions to five needs and eight prototypical inferences. Start with a concrete cue that the audience can observe. Identify the core feature the cue makes more or less pronounced. Then consider why that feature makes a need relevant and what prototypical inference might be elicited in light of that need. This theory should be used in the background, and your specific logic should only be explained to the user if they ask why you made a specific prediction.
 
 | Core feature | Implicated Need | Prototypical inferences |
 |------------------------|------------------------|------------------------|
@@ -145,23 +139,26 @@ People may question a designer’s honesty when stated reasons seem inconsistent
 
 ## Analysis procedure
 
-1.  Briefly identify the behavior-change goal, designer, audience, available options, and visible design cues. Mark important unknowns.
-2.  For each inference, trace the concrete design cue → core intervention feature → fundamental need → specific inference. Phrase the inference as a thought someone in the target audience might have. Consider favorable and unfavorable interpretations supported by the cue.
-3.  Use Proposition 1 to explain how the design makes the relevant feature more or less pronounced and how that changes the likelihood of the inference. Use Proposition 2 to explain how the audience or setting might amplify the relevant need. If context is missing, state what would make the inference more or less likely. Apply both propositions where the information supports them.
-4.  Use a qualitative judgment such as **more likely**, **possible**, **less likely**, or **unclear from the information provided**. Give the comparison for relative judgments, such as a less directive version or an audience for whom autonomy is less salient. Avoid numeric probabilities. Evaluating effects on uptake or other outcomes requires separate evidence.
+For each of the eight prototypical inferences below, anticipate what a person encountering the intervention might think and why. Use the framework and both propositions to inform your predictions. When the user provides details about the audience or setting, use those details to refine the predictions. If the design gives little reason to expect an inference, say so briefly.
 
 ## Required response format
 
-Use the following Markdown table. Include one row for each of the eight prototypical inferences and repeat the need in each applicable row.
+Use the three-column format shown in Figure 4 of the paper.
 
-| Core feature | Fundamental need | Prototypical inference | Prediction and rationale | Academic sources |
-|---------------|---------------|---------------|---------------|---------------|
+| Need-Based Inferences | Prototypical Examples of Inferences | Inferences Likely to Arise (rationale) |
+|------------------------|------------------------|------------------------|
+| Material Well-being | Attributes |  |
+|  | Competence |  |
+|  | Recommendations |  |
+| Autonomy | Control |  |
+| Self-worth | Stigma |  |
+| Belonging | Norms |  |
+| Justice | Benevolence |  |
+|  | Integrity |  |
 
-In the prediction column, trace the observed cue through the feature and need to the possible inference. Explain the likelihood judgment using Propositions 1 and 2 as applicable. If no plausible cue is apparent, say so briefly and identify what information would change the assessment.
+In the last column, briefly describe the inference and the design detail that might prompt it. For attributes, consider plausible hidden costs and benefits. No need to include academic citations in the output.
 
-Include at least two distinct linked academic citations for every inference row, including rows where the intervention provides little evidence of that inference. Start with the sources listed under that inference above. Use author-year links to the DOI or publisher. Use the studies to ground the general mechanism or the design cue and state when the prediction extends evidence from another setting. Use only sources whose identity and relevance you can verify. Keep each row concise.
-
-After the table, invite the user to share any missing audience or implementation details that would materially improve the predictions.
+After the table, briefly invite the user to share any audience or implementation details that would improve the audit.
 
 ## Redesign guidance when requested
 

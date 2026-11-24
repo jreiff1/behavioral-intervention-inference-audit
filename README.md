@@ -9,7 +9,7 @@ The academic paper described this tool as available in ChatGPT. The "Custom GPT"
 
 
 ## Quick start
-Paste this into a new chat in ChatGPT or Claude with web access enabled. Attach an image of the intervention or describe it in the chat.
+Paste this into a new chat in ChatGPT or Claude with web access enabled. 
 
 ```text
 Open and read the full Behavioral Intervention Inference Audit Prompt at:
@@ -17,6 +17,8 @@ https://raw.githubusercontent.com/jreiff1/behavioral-intervention-inference-audi
 
 Follow the instructions in that file to audit the intervention I provide. Return the three-column audit table specified in the file. If I haven’t provided an intervention yet, ask me to describe it or attach an image. If you can’t open the link, ask me to paste the Markdown text before starting the audit.
 ```
+
+Then, attach an image of the intervention or describe it in the chat.
 
 ## Creating a reusable tool
 In ChatGPT, anyone can recreate the tool:

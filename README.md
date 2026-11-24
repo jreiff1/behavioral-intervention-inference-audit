@@ -15,7 +15,7 @@ In ChatGPT, anyone can recreate the tool:
 
 In Claude, anyone can recreate the tool:
 1) Start a new chat and attach the Markdown file.
-2) Sending this message: "/skill-creator can you turn this into a skill?"
+2) Send this message: "/skill-creator can you turn this into a skill?"
 3) Claude will create and validate a skill named behavioral-intervention-audit and send back a .skill file.
 4) Click Save skill on the file card to install it.
    

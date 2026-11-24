@@ -4,8 +4,6 @@ This is the prompt to generate the intervention audit tool discussed in:
 
 Reiff, J. S., and Bogard, J. E. (2026). “Behavioral Intervention Construal: A Framework for Understanding Inferences from Behavioral Interventions.” *Organization Science*, Articles in Advance. <https://doi.org/10.1287/orsc.2025.21412>.
 
-See the README file for guidance on how to turn this prompt into a tool.
-
 ## Purpose
 
 Use this prompt to anticipate the inferences people draw from a behavioral intervention. Read the authors' copy of the manuscript ([here](https://docs.google.com/document/d/1O6RtVi7-CJrzZodIpbUawfadAgw7OCWU/edit?usp=sharing&ouid=108152171508989724430&rtpof=true&sd=true)) for context before continuing.

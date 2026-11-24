@@ -4,11 +4,11 @@ This is the prompt to generate the intervention audit tool discussed in:
 
 Reiff, J. S., and Bogard, J. E. (2026). “Behavioral Intervention Construal: A Framework for Understanding Inferences from Behavioral Interventions.” *Organization Science*, Articles in Advance. <https://doi.org/10.1287/orsc.2025.21412>.
 
-See the readme file for guidance on how to turn this prompt into a tool.
+See the README file for guidance on how to turn this prompt into a tool.
 
 ## Purpose
 
-Use this prompt to anticipate the inferences people draw from a behavioral intervention.
+Use this prompt to anticipate the inferences people draw from a behavioral intervention. Read the authors' copy of the manuscript ([here](https://docs.google.com/document/d/1O6RtVi7-CJrzZodIpbUawfadAgw7OCWU/edit?usp=sharing&ouid=108152171508989724430&rtpof=true&sd=true)) for context before continuing.
 
 This is a theory-guided audit. It is not a validated prediction model or a substitute for field research. The studies cited below show that particular inferences can occur in particular settings. They do not establish that the same inference will arise, or be common, in every setting.
 
@@ -36,14 +36,16 @@ A single cue can implicate multiple needs. Consider competing interpretations wh
 
 ## Predicting which inferences will arise
 
-Apply both propositions from [Reiff and Bogard (2026), Sections 5.1 and 5.2](https://doi.org/10.1287/orsc.2025.21412).
+Apply both propositions from Reiff and Bogard (2026), Sections 5.1 and 5.2.
 
 - **Proposition 1. More pronounced features make their associated inferences more likely.** Assess how pronounced each feature is from the audience's perspective. Compare the current design with a plausible version in which the feature is more or less pronounced. For example, an explicit directive may make behavioral modification more apparent than a neutral presentation of options, increasing the likelihood that recipients consider whether the designer is trying to control them.
 - **Proposition 2. An amplified need makes the corresponding inferences more likely.** For the same intervention, consider whether the audience's circumstances, individual differences, or cultural context make a need especially salient. For example, the same incentive may be more likely to prompt norm inferences among people who are particularly motivated to fit in with the relevant group. Ground these judgments in information supplied about the audience or setting.
 
+Always rely on the logic in these two propositions to form predictions.
+
 ## Needs and prototypical inferences
 
-Use the evidence under each inference to ground the audit. Predict an inference when the intervention provides a plausible cue.
+Use the evidence under each inference to ground the audit. Predict an inference when the intervention provides a plausible cue. Do not over-index on the specific examples in the linked articles; they should just be treated as sources of inspiration.
 
 ### Material well-being-based inferences
 
@@ -156,13 +158,13 @@ Use the three-column format shown in Figure 4 of the paper.
 | Justice | Benevolence |  |
 |  | Integrity |  |
 
-In the last column, briefly describe the inference and the design detail that might prompt it. For attributes, consider plausible hidden costs and benefits. No need to include academic citations in the output.
+In the last column, briefly describe the inference and the design detail that might prompt it. For attributes, consider plausible hidden costs and benefits. No need to include acadecitations in the output.
 
 After the table, briefly invite the user to share any audience or implementation details that would improve the audit.
 
 ## Redesign guidance when requested
 
-Use Proposition 1 and the reverse mapping described in [Reiff and Bogard (2026), Section 6](https://doi.org/10.1287/orsc.2025.21412). Start with the specific inference the user wants to reduce or encourage. Identify the corresponding need and core feature, then propose a concrete change to the cue that makes the feature more or less pronounced. State what the audience would see and how that change is expected to affect the target inference relative to the current design.
+Use Proposition 1 and the reverse mapping described in Reiff and Bogard (2026), Section 6. Start with the specific inference the user wants to reduce or encourage. Identify the corresponding need and core feature, then propose a concrete change to the cue that makes the feature more or less pronounced. State what the audience would see and how that change is expected to affect the target inference relative to the current design.
 
 - For attributes, competence, recommendations, control, or stigma, examine **behavioral modification**. For example, replace a directive with accurate, neutral option information if the goal is to reduce perceptions of control. Check whether the revision also weakens a useful recommendation.
 - For norms, examine **collective impact**. For example, clarify which peers are affected or use accurate information about their behavior if the goal is to convey a norm.

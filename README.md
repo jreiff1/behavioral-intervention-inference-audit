@@ -8,7 +8,7 @@ Reiff, J. S., and Bogard, J. E. (2026). “Behavioral Intervention Construal: A 
 The academic paper described this tool as available in ChatGPT. The "Custom GPT" function that was used to create the original tool will be retired on December 11, 2026. This prompt serves as a replacement. It serves as a general prompt that can be used with any model.
 
 
-## Quick start
+## To use the tool a single time
 Paste this into a new chat in ChatGPT or Claude with web access enabled. 
 
 ```text
@@ -20,7 +20,7 @@ Follow the instructions in that file to audit the intervention I provide. Return
 
 Then, attach an image of the intervention or describe it in the chat.
 
-## Creating a reusable tool
+## To create a reusable tool
 In ChatGPT, anyone can recreate the tool:
 1) Open the Plugins directory and instal Plugin Creator.
 2) Start a new chat, select @plugin-creator and attach the Markdown file.
